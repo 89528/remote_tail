@@ -6,7 +6,7 @@ node{
         extensions: [], userRemoteConfigs: [[url: 'https://github.com/89528/remote_tail']]])
     }
     stage ('Run application'){
-        dir("{$appenv}/remote_tail_web")
+        dir("{$appenv}/tail_logs_web/remote_tail")
         sh 'python3 manage.py runserver 127.0.0.1:8001'
     }
 }
