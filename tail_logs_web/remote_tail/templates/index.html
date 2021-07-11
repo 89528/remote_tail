@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body
+<form action="/external/" method="POST">
+    {% csrf_token %}
+    Input IP:
+    <input type = "text" name = "ip" required /><br/><br/>
+    Enter path:
+    <input type = "text" name = "path" required/><br/><br/>
+     {{data_external}}<br/><br/>
+     {{data}}
+     <input type="submit" value="Show logs"/>
+     <input type="submit" value="cancel script"/>
+</form>
+</body>
+</html>
