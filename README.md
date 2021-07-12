@@ -26,3 +26,4 @@ manage.py,wsgi.py,urls.py,settings.py  is automatically created in each django p
 **urls.py** is connects html file(fronrend) with backend python script.
 The **WSGI file** is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python.
 The **settings.py** is the central configuration for all Django projects.
+log_tail.py file renders all output of script on frontend.
