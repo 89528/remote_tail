@@ -9,7 +9,7 @@ def button (request):
 def external(request):
     ip = request.POST.get('ip')
     #path = request.POST.get('path')
-    out = run(sys.executable,['//home//ashishmishra//Documents//python_code//show_date.py ',ip], shell=False, stdout=PIPE)
+    out = run(sys.executable,['//home//ashishmishra//Documents//python_code//tail_logs.py ',ip], shell=False, stdout=PIPE)
     #data=request.get()
     print(out)
    # data=data.text
