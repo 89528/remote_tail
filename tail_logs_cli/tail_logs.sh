@@ -5,7 +5,7 @@ read ip
 echo "Enter log path"
 read path
 while true; do
-    ssh noc@$ip tail -f $path
+    ssh user@$ip tail -f $path
    # trap break INT
     read -p "Do you wish to install this program?" yn
     case $yn in
