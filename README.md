@@ -23,5 +23,6 @@ open browser and 127.0.0.1:8001
 Remote tail_log has many directories and files.
 templates directory contains html file which is frontend and calls backend python script.
 manage.py,wsgi.py,urls.py,settings.py  is automatically created in each django project.
-urls.py is connects html file(fronrend) with backend python script.
-The WSGI is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python
+**urls.py** is connects html file(fronrend) with backend python script.
+The **WSGI file** is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python.
+The **settings.py** is the central configuration for all Django projects.
